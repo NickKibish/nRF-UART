@@ -7,79 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01BDC46027443726007E04A8 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC45F27443726007E04A8 /* Tests_iOS.swift */; };
-		01BDC46227443726007E04A8 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC46127443726007E04A8 /* Tests_iOSLaunchTests.swift */; };
-		01BDC46C27443726007E04A8 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC46B27443726007E04A8 /* Tests_macOS.swift */; };
-		01BDC46E27443726007E04A8 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC46D27443726007E04A8 /* Tests_macOSLaunchTests.swift */; };
-		01BDC46F27443726007E04A8 /* nRF_UART.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC44427443724007E04A8 /* nRF_UART.xcdatamodeld */; };
-		01BDC47027443726007E04A8 /* nRF_UART.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC44427443724007E04A8 /* nRF_UART.xcdatamodeld */; };
-		01BDC47127443726007E04A8 /* nRF_UARTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC44627443724007E04A8 /* nRF_UARTApp.swift */; };
-		01BDC47227443726007E04A8 /* nRF_UARTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC44627443724007E04A8 /* nRF_UARTApp.swift */; };
-		01BDC47327443726007E04A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC44727443724007E04A8 /* ContentView.swift */; };
-		01BDC47427443726007E04A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC44727443724007E04A8 /* ContentView.swift */; };
-		01BDC47527443726007E04A8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC44827443724007E04A8 /* Persistence.swift */; };
-		01BDC47627443726007E04A8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC44827443724007E04A8 /* Persistence.swift */; };
-		01BDC47727443726007E04A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01BDC44927443725007E04A8 /* Assets.xcassets */; };
-		01BDC47827443726007E04A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01BDC44927443725007E04A8 /* Assets.xcassets */; };
+		01BDC4A927444769007E04A8 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC4A827444769007E04A8 /* Tests_iOS.swift */; };
+		01BDC4AB27444769007E04A8 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC4AA27444769007E04A8 /* Tests_iOSLaunchTests.swift */; };
+		01BDC4B527444769007E04A8 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC4B427444769007E04A8 /* Tests_macOS.swift */; };
+		01BDC4B727444769007E04A8 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC4B627444769007E04A8 /* Tests_macOSLaunchTests.swift */; };
+		01BDC4B827444769007E04A8 /* nRF_UART.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC48D27444767007E04A8 /* nRF_UART.xcdatamodeld */; };
+		01BDC4B927444769007E04A8 /* nRF_UART.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC48D27444767007E04A8 /* nRF_UART.xcdatamodeld */; };
+		01BDC4BA27444769007E04A8 /* nRF_UARTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC48F27444767007E04A8 /* nRF_UARTApp.swift */; };
+		01BDC4BB27444769007E04A8 /* nRF_UARTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC48F27444767007E04A8 /* nRF_UARTApp.swift */; };
+		01BDC4BC27444769007E04A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC49027444767007E04A8 /* ContentView.swift */; };
+		01BDC4BD27444769007E04A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC49027444767007E04A8 /* ContentView.swift */; };
+		01BDC4BE27444769007E04A8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC49127444767007E04A8 /* Persistence.swift */; };
+		01BDC4BF27444769007E04A8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC49127444767007E04A8 /* Persistence.swift */; };
+		01BDC4C027444769007E04A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01BDC49227444769007E04A8 /* Assets.xcassets */; };
+		01BDC4C127444769007E04A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01BDC49227444769007E04A8 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		01BDC45C27443726007E04A8 /* PBXContainerItemProxy */ = {
+		01BDC4A527444769007E04A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 01BDC43F27443723007E04A8 /* Project object */;
+			containerPortal = 01BDC48827444767007E04A8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 01BDC44D27443726007E04A8;
+			remoteGlobalIDString = 01BDC49627444769007E04A8;
 			remoteInfo = "nRF-UART (iOS)";
 		};
-		01BDC46827443726007E04A8 /* PBXContainerItemProxy */ = {
+		01BDC4B127444769007E04A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 01BDC43F27443723007E04A8 /* Project object */;
+			containerPortal = 01BDC48827444767007E04A8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 01BDC45327443726007E04A8;
+			remoteGlobalIDString = 01BDC49C27444769007E04A8;
 			remoteInfo = "nRF-UART (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01BDC44527443724007E04A8 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
-		01BDC44627443724007E04A8 /* nRF_UARTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nRF_UARTApp.swift; sourceTree = "<group>"; };
-		01BDC44727443724007E04A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		01BDC44827443724007E04A8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		01BDC44927443725007E04A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		01BDC44E27443726007E04A8 /* nRF-UART.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nRF-UART.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		01BDC45427443726007E04A8 /* nRF-UART.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nRF-UART.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		01BDC45627443726007E04A8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		01BDC45B27443726007E04A8 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		01BDC45F27443726007E04A8 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		01BDC46127443726007E04A8 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
-		01BDC46727443726007E04A8 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		01BDC46B27443726007E04A8 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		01BDC46D27443726007E04A8 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		01BDC48E27444767007E04A8 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		01BDC48F27444767007E04A8 /* nRF_UARTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nRF_UARTApp.swift; sourceTree = "<group>"; };
+		01BDC49027444767007E04A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		01BDC49127444767007E04A8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		01BDC49227444769007E04A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01BDC49727444769007E04A8 /* nRF-UART.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nRF-UART.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BDC49D27444769007E04A8 /* nRF-UART.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nRF-UART.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BDC49F27444769007E04A8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		01BDC4A427444769007E04A8 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BDC4A827444769007E04A8 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		01BDC4AA27444769007E04A8 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		01BDC4B027444769007E04A8 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BDC4B427444769007E04A8 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		01BDC4B627444769007E04A8 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		01BDC44B27443726007E04A8 /* Frameworks */ = {
+		01BDC49427444769007E04A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01BDC45127443726007E04A8 /* Frameworks */ = {
+		01BDC49A27444769007E04A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01BDC45827443726007E04A8 /* Frameworks */ = {
+		01BDC4A127444769007E04A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01BDC46427443726007E04A8 /* Frameworks */ = {
+		01BDC4AD27444769007E04A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -89,62 +89,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01BDC43E27443723007E04A8 = {
+		01BDC48727444767007E04A8 = {
 			isa = PBXGroup;
 			children = (
-				01BDC44327443724007E04A8 /* Shared */,
-				01BDC45527443726007E04A8 /* macOS */,
-				01BDC45E27443726007E04A8 /* Tests iOS */,
-				01BDC46A27443726007E04A8 /* Tests macOS */,
-				01BDC44F27443726007E04A8 /* Products */,
+				01BDC48C27444767007E04A8 /* Shared */,
+				01BDC49E27444769007E04A8 /* macOS */,
+				01BDC4A727444769007E04A8 /* Tests iOS */,
+				01BDC4B327444769007E04A8 /* Tests macOS */,
+				01BDC49827444769007E04A8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		01BDC44327443724007E04A8 /* Shared */ = {
+		01BDC48C27444767007E04A8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				01BDC44627443724007E04A8 /* nRF_UARTApp.swift */,
-				01BDC44727443724007E04A8 /* ContentView.swift */,
-				01BDC44827443724007E04A8 /* Persistence.swift */,
-				01BDC44927443725007E04A8 /* Assets.xcassets */,
-				01BDC44427443724007E04A8 /* nRF_UART.xcdatamodeld */,
+				01BDC48F27444767007E04A8 /* nRF_UARTApp.swift */,
+				01BDC49027444767007E04A8 /* ContentView.swift */,
+				01BDC49127444767007E04A8 /* Persistence.swift */,
+				01BDC49227444769007E04A8 /* Assets.xcassets */,
+				01BDC48D27444767007E04A8 /* nRF_UART.xcdatamodeld */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		01BDC44F27443726007E04A8 /* Products */ = {
+		01BDC49827444769007E04A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01BDC44E27443726007E04A8 /* nRF-UART.app */,
-				01BDC45427443726007E04A8 /* nRF-UART.app */,
-				01BDC45B27443726007E04A8 /* Tests iOS.xctest */,
-				01BDC46727443726007E04A8 /* Tests macOS.xctest */,
+				01BDC49727444769007E04A8 /* nRF-UART.app */,
+				01BDC49D27444769007E04A8 /* nRF-UART.app */,
+				01BDC4A427444769007E04A8 /* Tests iOS.xctest */,
+				01BDC4B027444769007E04A8 /* Tests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		01BDC45527443726007E04A8 /* macOS */ = {
+		01BDC49E27444769007E04A8 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				01BDC45627443726007E04A8 /* macOS.entitlements */,
+				01BDC49F27444769007E04A8 /* macOS.entitlements */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
 		};
-		01BDC45E27443726007E04A8 /* Tests iOS */ = {
+		01BDC4A727444769007E04A8 /* Tests iOS */ = {
 			isa = PBXGroup;
 			children = (
-				01BDC45F27443726007E04A8 /* Tests_iOS.swift */,
-				01BDC46127443726007E04A8 /* Tests_iOSLaunchTests.swift */,
+				01BDC4A827444769007E04A8 /* Tests_iOS.swift */,
+				01BDC4AA27444769007E04A8 /* Tests_iOSLaunchTests.swift */,
 			);
 			path = "Tests iOS";
 			sourceTree = "<group>";
 		};
-		01BDC46A27443726007E04A8 /* Tests macOS */ = {
+		01BDC4B327444769007E04A8 /* Tests macOS */ = {
 			isa = PBXGroup;
 			children = (
-				01BDC46B27443726007E04A8 /* Tests_macOS.swift */,
-				01BDC46D27443726007E04A8 /* Tests_macOSLaunchTests.swift */,
+				01BDC4B427444769007E04A8 /* Tests_macOS.swift */,
+				01BDC4B627444769007E04A8 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
 			sourceTree = "<group>";
@@ -152,13 +152,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		01BDC44D27443726007E04A8 /* nRF-UART (iOS) */ = {
+		01BDC49627444769007E04A8 /* nRF-UART (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01BDC47B27443726007E04A8 /* Build configuration list for PBXNativeTarget "nRF-UART (iOS)" */;
+			buildConfigurationList = 01BDC4C427444769007E04A8 /* Build configuration list for PBXNativeTarget "nRF-UART (iOS)" */;
 			buildPhases = (
-				01BDC44A27443726007E04A8 /* Sources */,
-				01BDC44B27443726007E04A8 /* Frameworks */,
-				01BDC44C27443726007E04A8 /* Resources */,
+				01BDC49327444769007E04A8 /* Sources */,
+				01BDC49427444769007E04A8 /* Frameworks */,
+				01BDC49527444769007E04A8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -166,16 +166,16 @@
 			);
 			name = "nRF-UART (iOS)";
 			productName = "nRF-UART (iOS)";
-			productReference = 01BDC44E27443726007E04A8 /* nRF-UART.app */;
+			productReference = 01BDC49727444769007E04A8 /* nRF-UART.app */;
 			productType = "com.apple.product-type.application";
 		};
-		01BDC45327443726007E04A8 /* nRF-UART (macOS) */ = {
+		01BDC49C27444769007E04A8 /* nRF-UART (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01BDC47E27443726007E04A8 /* Build configuration list for PBXNativeTarget "nRF-UART (macOS)" */;
+			buildConfigurationList = 01BDC4C727444769007E04A8 /* Build configuration list for PBXNativeTarget "nRF-UART (macOS)" */;
 			buildPhases = (
-				01BDC45027443726007E04A8 /* Sources */,
-				01BDC45127443726007E04A8 /* Frameworks */,
-				01BDC45227443726007E04A8 /* Resources */,
+				01BDC49927444769007E04A8 /* Sources */,
+				01BDC49A27444769007E04A8 /* Frameworks */,
+				01BDC49B27444769007E04A8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -183,72 +183,72 @@
 			);
 			name = "nRF-UART (macOS)";
 			productName = "nRF-UART (macOS)";
-			productReference = 01BDC45427443726007E04A8 /* nRF-UART.app */;
+			productReference = 01BDC49D27444769007E04A8 /* nRF-UART.app */;
 			productType = "com.apple.product-type.application";
 		};
-		01BDC45A27443726007E04A8 /* Tests iOS */ = {
+		01BDC4A327444769007E04A8 /* Tests iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01BDC48127443726007E04A8 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildConfigurationList = 01BDC4CA27444769007E04A8 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
 			buildPhases = (
-				01BDC45727443726007E04A8 /* Sources */,
-				01BDC45827443726007E04A8 /* Frameworks */,
-				01BDC45927443726007E04A8 /* Resources */,
+				01BDC4A027444769007E04A8 /* Sources */,
+				01BDC4A127444769007E04A8 /* Frameworks */,
+				01BDC4A227444769007E04A8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				01BDC45D27443726007E04A8 /* PBXTargetDependency */,
+				01BDC4A627444769007E04A8 /* PBXTargetDependency */,
 			);
 			name = "Tests iOS";
 			productName = "Tests iOS";
-			productReference = 01BDC45B27443726007E04A8 /* Tests iOS.xctest */;
+			productReference = 01BDC4A427444769007E04A8 /* Tests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		01BDC46627443726007E04A8 /* Tests macOS */ = {
+		01BDC4AF27444769007E04A8 /* Tests macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01BDC48427443726007E04A8 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildConfigurationList = 01BDC4CD27444769007E04A8 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
 			buildPhases = (
-				01BDC46327443726007E04A8 /* Sources */,
-				01BDC46427443726007E04A8 /* Frameworks */,
-				01BDC46527443726007E04A8 /* Resources */,
+				01BDC4AC27444769007E04A8 /* Sources */,
+				01BDC4AD27444769007E04A8 /* Frameworks */,
+				01BDC4AE27444769007E04A8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				01BDC46927443726007E04A8 /* PBXTargetDependency */,
+				01BDC4B227444769007E04A8 /* PBXTargetDependency */,
 			);
 			name = "Tests macOS";
 			productName = "Tests macOS";
-			productReference = 01BDC46727443726007E04A8 /* Tests macOS.xctest */;
+			productReference = 01BDC4B027444769007E04A8 /* Tests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		01BDC43F27443723007E04A8 /* Project object */ = {
+		01BDC48827444767007E04A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					01BDC44D27443726007E04A8 = {
+					01BDC49627444769007E04A8 = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					01BDC45327443726007E04A8 = {
+					01BDC49C27444769007E04A8 = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					01BDC45A27443726007E04A8 = {
+					01BDC4A327444769007E04A8 = {
 						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 01BDC44D27443726007E04A8;
+						TestTargetID = 01BDC49627444769007E04A8;
 					};
-					01BDC46627443726007E04A8 = {
+					01BDC4AF27444769007E04A8 = {
 						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 01BDC45327443726007E04A8;
+						TestTargetID = 01BDC49C27444769007E04A8;
 					};
 				};
 			};
-			buildConfigurationList = 01BDC44227443723007E04A8 /* Build configuration list for PBXProject "nRF-UART" */;
+			buildConfigurationList = 01BDC48B27444767007E04A8 /* Build configuration list for PBXProject "nRF-UART" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -256,44 +256,44 @@
 				en,
 				Base,
 			);
-			mainGroup = 01BDC43E27443723007E04A8;
-			productRefGroup = 01BDC44F27443726007E04A8 /* Products */;
+			mainGroup = 01BDC48727444767007E04A8;
+			productRefGroup = 01BDC49827444769007E04A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01BDC44D27443726007E04A8 /* nRF-UART (iOS) */,
-				01BDC45327443726007E04A8 /* nRF-UART (macOS) */,
-				01BDC45A27443726007E04A8 /* Tests iOS */,
-				01BDC46627443726007E04A8 /* Tests macOS */,
+				01BDC49627444769007E04A8 /* nRF-UART (iOS) */,
+				01BDC49C27444769007E04A8 /* nRF-UART (macOS) */,
+				01BDC4A327444769007E04A8 /* Tests iOS */,
+				01BDC4AF27444769007E04A8 /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		01BDC44C27443726007E04A8 /* Resources */ = {
+		01BDC49527444769007E04A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01BDC47727443726007E04A8 /* Assets.xcassets in Resources */,
+				01BDC4C027444769007E04A8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01BDC45227443726007E04A8 /* Resources */ = {
+		01BDC49B27444769007E04A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01BDC47827443726007E04A8 /* Assets.xcassets in Resources */,
+				01BDC4C127444769007E04A8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01BDC45927443726007E04A8 /* Resources */ = {
+		01BDC4A227444769007E04A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01BDC46527443726007E04A8 /* Resources */ = {
+		01BDC4AE27444769007E04A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,63 +303,63 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		01BDC44A27443726007E04A8 /* Sources */ = {
+		01BDC49327444769007E04A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01BDC47127443726007E04A8 /* nRF_UARTApp.swift in Sources */,
-				01BDC47527443726007E04A8 /* Persistence.swift in Sources */,
-				01BDC46F27443726007E04A8 /* nRF_UART.xcdatamodeld in Sources */,
-				01BDC47327443726007E04A8 /* ContentView.swift in Sources */,
+				01BDC4BA27444769007E04A8 /* nRF_UARTApp.swift in Sources */,
+				01BDC4BE27444769007E04A8 /* Persistence.swift in Sources */,
+				01BDC4B827444769007E04A8 /* nRF_UART.xcdatamodeld in Sources */,
+				01BDC4BC27444769007E04A8 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01BDC45027443726007E04A8 /* Sources */ = {
+		01BDC49927444769007E04A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01BDC47227443726007E04A8 /* nRF_UARTApp.swift in Sources */,
-				01BDC47627443726007E04A8 /* Persistence.swift in Sources */,
-				01BDC47027443726007E04A8 /* nRF_UART.xcdatamodeld in Sources */,
-				01BDC47427443726007E04A8 /* ContentView.swift in Sources */,
+				01BDC4BB27444769007E04A8 /* nRF_UARTApp.swift in Sources */,
+				01BDC4BF27444769007E04A8 /* Persistence.swift in Sources */,
+				01BDC4B927444769007E04A8 /* nRF_UART.xcdatamodeld in Sources */,
+				01BDC4BD27444769007E04A8 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01BDC45727443726007E04A8 /* Sources */ = {
+		01BDC4A027444769007E04A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01BDC46227443726007E04A8 /* Tests_iOSLaunchTests.swift in Sources */,
-				01BDC46027443726007E04A8 /* Tests_iOS.swift in Sources */,
+				01BDC4AB27444769007E04A8 /* Tests_iOSLaunchTests.swift in Sources */,
+				01BDC4A927444769007E04A8 /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01BDC46327443726007E04A8 /* Sources */ = {
+		01BDC4AC27444769007E04A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01BDC46E27443726007E04A8 /* Tests_macOSLaunchTests.swift in Sources */,
-				01BDC46C27443726007E04A8 /* Tests_macOS.swift in Sources */,
+				01BDC4B727444769007E04A8 /* Tests_macOSLaunchTests.swift in Sources */,
+				01BDC4B527444769007E04A8 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		01BDC45D27443726007E04A8 /* PBXTargetDependency */ = {
+		01BDC4A627444769007E04A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 01BDC44D27443726007E04A8 /* nRF-UART (iOS) */;
-			targetProxy = 01BDC45C27443726007E04A8 /* PBXContainerItemProxy */;
+			target = 01BDC49627444769007E04A8 /* nRF-UART (iOS) */;
+			targetProxy = 01BDC4A527444769007E04A8 /* PBXContainerItemProxy */;
 		};
-		01BDC46927443726007E04A8 /* PBXTargetDependency */ = {
+		01BDC4B227444769007E04A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 01BDC45327443726007E04A8 /* nRF-UART (macOS) */;
-			targetProxy = 01BDC46827443726007E04A8 /* PBXContainerItemProxy */;
+			target = 01BDC49C27444769007E04A8 /* nRF-UART (macOS) */;
+			targetProxy = 01BDC4B127444769007E04A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01BDC47927443726007E04A8 /* Debug */ = {
+		01BDC4C227444769007E04A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -418,7 +418,7 @@
 			};
 			name = Debug;
 		};
-		01BDC47A27443726007E04A8 /* Release */ = {
+		01BDC4C327444769007E04A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -470,7 +470,7 @@
 			};
 			name = Release;
 		};
-		01BDC47C27443726007E04A8 /* Debug */ = {
+		01BDC4C527444769007E04A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -500,7 +500,7 @@
 			};
 			name = Debug;
 		};
-		01BDC47D27443726007E04A8 /* Release */ = {
+		01BDC4C627444769007E04A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -531,7 +531,7 @@
 			};
 			name = Release;
 		};
-		01BDC47F27443726007E04A8 /* Debug */ = {
+		01BDC4C827444769007E04A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -559,7 +559,7 @@
 			};
 			name = Debug;
 		};
-		01BDC48027443726007E04A8 /* Release */ = {
+		01BDC4C927444769007E04A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -587,7 +587,7 @@
 			};
 			name = Release;
 		};
-		01BDC48227443726007E04A8 /* Debug */ = {
+		01BDC4CB27444769007E04A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -612,7 +612,7 @@
 			};
 			name = Debug;
 		};
-		01BDC48327443726007E04A8 /* Release */ = {
+		01BDC4CC27444769007E04A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -638,7 +638,7 @@
 			};
 			name = Release;
 		};
-		01BDC48527443726007E04A8 /* Debug */ = {
+		01BDC4CE27444769007E04A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -663,7 +663,7 @@
 			};
 			name = Debug;
 		};
-		01BDC48627443726007E04A8 /* Release */ = {
+		01BDC4CF27444769007E04A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -691,47 +691,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01BDC44227443723007E04A8 /* Build configuration list for PBXProject "nRF-UART" */ = {
+		01BDC48B27444767007E04A8 /* Build configuration list for PBXProject "nRF-UART" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01BDC47927443726007E04A8 /* Debug */,
-				01BDC47A27443726007E04A8 /* Release */,
+				01BDC4C227444769007E04A8 /* Debug */,
+				01BDC4C327444769007E04A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01BDC47B27443726007E04A8 /* Build configuration list for PBXNativeTarget "nRF-UART (iOS)" */ = {
+		01BDC4C427444769007E04A8 /* Build configuration list for PBXNativeTarget "nRF-UART (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01BDC47C27443726007E04A8 /* Debug */,
-				01BDC47D27443726007E04A8 /* Release */,
+				01BDC4C527444769007E04A8 /* Debug */,
+				01BDC4C627444769007E04A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01BDC47E27443726007E04A8 /* Build configuration list for PBXNativeTarget "nRF-UART (macOS)" */ = {
+		01BDC4C727444769007E04A8 /* Build configuration list for PBXNativeTarget "nRF-UART (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01BDC47F27443726007E04A8 /* Debug */,
-				01BDC48027443726007E04A8 /* Release */,
+				01BDC4C827444769007E04A8 /* Debug */,
+				01BDC4C927444769007E04A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01BDC48127443726007E04A8 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+		01BDC4CA27444769007E04A8 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01BDC48227443726007E04A8 /* Debug */,
-				01BDC48327443726007E04A8 /* Release */,
+				01BDC4CB27444769007E04A8 /* Debug */,
+				01BDC4CC27444769007E04A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01BDC48427443726007E04A8 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+		01BDC4CD27444769007E04A8 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01BDC48527443726007E04A8 /* Debug */,
-				01BDC48627443726007E04A8 /* Release */,
+				01BDC4CE27444769007E04A8 /* Debug */,
+				01BDC4CF27444769007E04A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -739,17 +739,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		01BDC44427443724007E04A8 /* nRF_UART.xcdatamodeld */ = {
+		01BDC48D27444767007E04A8 /* nRF_UART.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				01BDC44527443724007E04A8 /* Shared.xcdatamodel */,
+				01BDC48E27444767007E04A8 /* Shared.xcdatamodel */,
 			);
-			currentVersion = 01BDC44527443724007E04A8 /* Shared.xcdatamodel */;
+			currentVersion = 01BDC48E27444767007E04A8 /* Shared.xcdatamodel */;
 			path = nRF_UART.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 01BDC43F27443723007E04A8 /* Project object */;
+	rootObject = 01BDC48827444767007E04A8 /* Project object */;
 }
