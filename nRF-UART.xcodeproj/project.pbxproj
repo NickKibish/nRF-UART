@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01A6D1C327481E8B00BA7E93 /* CreateNewCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A6D1C227481E8B00BA7E93 /* CreateNewCommand.swift */; };
+		01A6D1C427481E8B00BA7E93 /* CreateNewCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A6D1C227481E8B00BA7E93 /* CreateNewCommand.swift */; };
 		01BDC4A927444769007E04A8 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC4A827444769007E04A8 /* Tests_iOS.swift */; };
 		01BDC4AB27444769007E04A8 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC4AA27444769007E04A8 /* Tests_iOSLaunchTests.swift */; };
 		01BDC4B527444769007E04A8 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC4B427444769007E04A8 /* Tests_macOS.swift */; };
@@ -49,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01A6D1C227481E8B00BA7E93 /* CreateNewCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewCommand.swift; sourceTree = "<group>"; };
 		01BDC48E27444767007E04A8 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		01BDC48F27444767007E04A8 /* nRF_UARTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nRF_UARTApp.swift; sourceTree = "<group>"; };
 		01BDC49027444767007E04A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01A6D1C127481E6D00BA7E93 /* CommandDetails */ = {
+			isa = PBXGroup;
+			children = (
+				01A6D1C227481E8B00BA7E93 /* CreateNewCommand.swift */,
+			);
+			path = CommandDetails;
+			sourceTree = "<group>";
+		};
 		01BDC48727444767007E04A8 = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +179,7 @@
 		01BDC4D027444931007E04A8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				01A6D1C127481E6D00BA7E93 /* CommandDetails */,
 				01BDC4D22744493F007E04A8 /* MainScreen */,
 			);
 			path = Views;
@@ -371,6 +383,7 @@
 				01BDC4B827444769007E04A8 /* nRF_UART.xcdatamodeld in Sources */,
 				01BDC4D827444BB1007E04A8 /* AddCommand.swift in Sources */,
 				01BDC4BC27444769007E04A8 /* ContentView.swift in Sources */,
+				01A6D1C327481E8B00BA7E93 /* CreateNewCommand.swift in Sources */,
 				01BDC4D427444B90007E04A8 /* CommandList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +398,7 @@
 				01BDC4B927444769007E04A8 /* nRF_UART.xcdatamodeld in Sources */,
 				01BDC4D927444BB1007E04A8 /* AddCommand.swift in Sources */,
 				01BDC4BD27444769007E04A8 /* ContentView.swift in Sources */,
+				01A6D1C427481E8B00BA7E93 /* CreateNewCommand.swift in Sources */,
 				01BDC4D527444B90007E04A8 /* CommandList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
