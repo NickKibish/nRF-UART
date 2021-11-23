@@ -17,18 +17,7 @@ struct CommandList: View {
     ]
     
     var body: some View {
-        
-        #if os(OSX)
-//        contentView()
-        VStack {
-            Text("Hello World")
-        }
-        #else
-        NavigationView {
-            contentView()
-        }
-        .navigationViewStyle(.stack)
-        #endif
+        contentView()
     }
     
     @ViewBuilder
@@ -40,8 +29,9 @@ struct CommandList: View {
                         newCommandPresented.toggle()
                     }, label: {
                         AddCommand()
-                            .frame(height: 100)
+                            .frame(width: 80, height: 100)
                     })
+                        .buttonStyle(.plain)
                         .sheet(isPresented: $newCommandPresented, content: {
                             CreateNewCommand()
                         })
