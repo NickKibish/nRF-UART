@@ -13,7 +13,7 @@ struct nRF_UARTApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GroupsList()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
