@@ -8,13 +8,23 @@
 import SwiftUI
 
 struct CreateNewCommand: View {
+    @Binding var commandName: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            HStack {
+                Image(systemName: "photo")
+                TextField("Command Name", text: $commandName, prompt: Text("Command Name"))
+            }
+        }
     }
 }
 
 struct CreateNewCommand_Previews: PreviewProvider {
+    
     static var previews: some View {
-        CreateNewCommand()
+        CreateNewCommand(commandName: .constant("Command Name"))
+//            .environment(\.colorScheme, .dark)
+            .previewDevice(PreviewDevice(rawValue: "iPhone 13 Pro"))
     }
 }

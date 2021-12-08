@@ -33,7 +33,7 @@ struct CommandList: View {
                     })
                         .buttonStyle(.plain)
                         .sheet(isPresented: $newCommandPresented, content: {
-                            CreateNewCommand()
+                            CreateNewCommand(commandName: .constant(""))
                         })
                 }
             }
