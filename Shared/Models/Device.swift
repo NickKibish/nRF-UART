@@ -7,8 +7,19 @@
 
 import Foundation
 
-struct Device {
-    let name: String
-    let id: UUID
-    let color: String
+protocol Device {
+    var name: String { get }
+    var id: UUID { get }
+    var color: EntityColor { get }
+}
+
+// TODO: Tmp Implementation
+struct DeviceImpl: Device {
+    var name: String
+    
+    var id: UUID
+    
+    var color: EntityColor
+    
+    
 }

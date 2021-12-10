@@ -8,15 +8,28 @@
 import Foundation
 import SwiftUI
 
-struct Command {
-    let name: String
-    let icon: String
-    let deviceId: UUID
-    let data: Data
-    let color: String
-    let groupId: Int
+protocol Command {
+    var name: String { get }
+    var iconName: String { get }
+    var device: Device { get }
+    var content: DataRepresentable { get }
+    var color: EntityColor { get }
+    var icon: EntityIcon { get }
+}
+
+// TODO: TmpImplementation
+struct CommandImpl: Command {
+    var name: String
     
-    var iconImage: Image? {
-        Image(systemName: icon)
-    }
+    var iconName: String
+    
+    var device: Device
+    
+    var content: DataRepresentable
+    
+    var color: EntityColor
+    
+    var icon: EntityIcon
+    
+    
 }

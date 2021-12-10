@@ -13,6 +13,12 @@
 		014F7A102756E255007039E1 /* CommandGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014F7A0E2756E255007039E1 /* CommandGroup.swift */; };
 		014F7A122756E2BB007039E1 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014F7A112756E2BB007039E1 /* Device.swift */; };
 		014F7A132756E2BB007039E1 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014F7A112756E2BB007039E1 /* Device.swift */; };
+		018796CC2763E6F900FF6F10 /* EntityColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018796CB2763E6F900FF6F10 /* EntityColor.swift */; };
+		018796CD2763E6F900FF6F10 /* EntityColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018796CB2763E6F900FF6F10 /* EntityColor.swift */; };
+		018796CF2763E87000FF6F10 /* DataRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018796CE2763E87000FF6F10 /* DataRepresentable.swift */; };
+		018796D02763E87000FF6F10 /* DataRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018796CE2763E87000FF6F10 /* DataRepresentable.swift */; };
+		018796D22763E91B00FF6F10 /* EntityIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018796D12763E91B00FF6F10 /* EntityIcon.swift */; };
+		018796D32763E91B00FF6F10 /* EntityIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018796D12763E91B00FF6F10 /* EntityIcon.swift */; };
 		01A6D1C327481E8B00BA7E93 /* CreateNewCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A6D1C227481E8B00BA7E93 /* CreateNewCommand.swift */; };
 		01A6D1C427481E8B00BA7E93 /* CreateNewCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A6D1C227481E8B00BA7E93 /* CreateNewCommand.swift */; };
 		01BDC4A927444769007E04A8 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDC4A827444769007E04A8 /* Tests_iOS.swift */; };
@@ -62,6 +68,9 @@
 		014F7A0B2756E120007039E1 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
 		014F7A0E2756E255007039E1 /* CommandGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandGroup.swift; sourceTree = "<group>"; };
 		014F7A112756E2BB007039E1 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		018796CB2763E6F900FF6F10 /* EntityColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityColor.swift; sourceTree = "<group>"; };
+		018796CE2763E87000FF6F10 /* DataRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepresentable.swift; sourceTree = "<group>"; };
+		018796D12763E91B00FF6F10 /* EntityIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityIcon.swift; sourceTree = "<group>"; };
 		01A6D1C227481E8B00BA7E93 /* CreateNewCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewCommand.swift; sourceTree = "<group>"; };
 		01BDC48E27444767007E04A8 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		01BDC48F27444767007E04A8 /* nRF_UARTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nRF_UARTApp.swift; sourceTree = "<group>"; };
@@ -203,6 +212,9 @@
 				014F7A0B2756E120007039E1 /* Command.swift */,
 				014F7A0E2756E255007039E1 /* CommandGroup.swift */,
 				014F7A112756E2BB007039E1 /* Device.swift */,
+				018796CE2763E87000FF6F10 /* DataRepresentable.swift */,
+				018796CB2763E6F900FF6F10 /* EntityColor.swift */,
+				018796D12763E91B00FF6F10 /* EntityIcon.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -409,14 +421,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018796D22763E91B00FF6F10 /* EntityIcon.swift in Sources */,
 				01BDC4DD27444D22007E04A8 /* ColorManager.swift in Sources */,
 				C3524B11274D57C700A015D0 /* GroupsList.swift in Sources */,
+				018796CF2763E87000FF6F10 /* DataRepresentable.swift in Sources */,
 				01BDC4BA27444769007E04A8 /* nRF_UARTApp.swift in Sources */,
 				014F7A122756E2BB007039E1 /* Device.swift in Sources */,
 				014F7A0C2756E120007039E1 /* Command.swift in Sources */,
 				01BDC4BE27444769007E04A8 /* Persistence.swift in Sources */,
 				01BDC4B827444769007E04A8 /* nRF_UART.xcdatamodeld in Sources */,
 				014F7A0F2756E255007039E1 /* CommandGroup.swift in Sources */,
+				018796CC2763E6F900FF6F10 /* EntityColor.swift in Sources */,
 				01BDC4D827444BB1007E04A8 /* AddCommand.swift in Sources */,
 				01BDC4BC27444769007E04A8 /* ContentView.swift in Sources */,
 				01A6D1C327481E8B00BA7E93 /* CreateNewCommand.swift in Sources */,
@@ -428,14 +443,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018796D32763E91B00FF6F10 /* EntityIcon.swift in Sources */,
 				01BDC4DE27444D22007E04A8 /* ColorManager.swift in Sources */,
 				C3524B12274D57C700A015D0 /* GroupsList.swift in Sources */,
+				018796D02763E87000FF6F10 /* DataRepresentable.swift in Sources */,
 				01BDC4BB27444769007E04A8 /* nRF_UARTApp.swift in Sources */,
 				014F7A132756E2BB007039E1 /* Device.swift in Sources */,
 				014F7A0D2756E120007039E1 /* Command.swift in Sources */,
 				01BDC4BF27444769007E04A8 /* Persistence.swift in Sources */,
 				01BDC4B927444769007E04A8 /* nRF_UART.xcdatamodeld in Sources */,
 				014F7A102756E255007039E1 /* CommandGroup.swift in Sources */,
+				018796CD2763E6F900FF6F10 /* EntityColor.swift in Sources */,
 				01BDC4D927444BB1007E04A8 /* AddCommand.swift in Sources */,
 				01BDC4BD27444769007E04A8 /* ContentView.swift in Sources */,
 				01A6D1C427481E8B00BA7E93 /* CreateNewCommand.swift in Sources */,

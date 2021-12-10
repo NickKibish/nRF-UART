@@ -9,7 +9,9 @@ import Foundation
 
 struct CommandGroup {
     let name: String
-    let id: Int
+    let id: UUID
     
-    let color: String
+    let color: EntityColor
 }
+
+
